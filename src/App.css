@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 a{
   text-decoration: none;
   color: black;
@@ -75,4 +79,61 @@ a:hover{
   width: 800px;
   height: 200px;
   border-radius: 10px;
+}
+
+.setting{
+  width: 100px;
+  height: 50px;
+  background-color: yellow;
+  margin-left: 30px;
+  font-size: 30px;
+  color: violet;
+  margin-top: 20px;
+}
+
+.checkbox{
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.radio{
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.p-setting{
+  margin-left: 30px;
+}
+
+.button-click{
+  margin-left: 25px;
+}
+
+#hidden{
+  display: none;
+}
+
+.hidden-button{
+  margin-left: 25px;
+  border-radius: 10px;
+}
+
+.under-button{
+  width: 800px;
+  height: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: yellow;
+  color: violet;
+  border: 1px solid white;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+.under-button:hover{ 
+  color: blue;
+  border: 1px solid blue;
+  
 }
