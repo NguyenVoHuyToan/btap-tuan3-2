@@ -13,6 +13,10 @@ export const Cover = styled.div`
 `
 
 function Setting() {
+    const [product, setProduct] = useState('')
+    const [marketing, setMarketing] = useState('')
+    const [engineer, setEngineer] = useState('')
+    const [design, setDesign] = useState('')
   return (
     <Cover>
         <div className='setting'>Setting</div>
@@ -37,17 +41,29 @@ function Setting() {
         </div>
         <p className='p-setting'>Tag your social</p>
         <p className='p-setting'>Pick tags for our curation engine to work its magin</p>
-        {/* <div id='hidden'>
-            <button className='hidden-button'>Product</button>
-            <button className='hidden-button'>Marketing</button>
-            <button className='hidden-button'>Engineering</button>
-            <button className='hidden-button'>Design</button>
-        </div> */}
+        <div className='handle-setting'>
+            {product && <div className='set-click'>
+                <b>Product</b>
+                <button onClick={() => setProduct('')} className='set-button-click'>X</button>
+                </div>}
+            {marketing && <div className='set-click'>
+                <b>Marketing</b>
+                <button onClick={() => setMarketing('')} className='set-button-click'>X</button>
+                </div>}
+            {engineer && <div className='set-click'>
+                <b>Engineering</b>
+                <button onClick={() => setEngineer('')} className='set-button-click'>X</button>
+                </div>}
+            {design && <div className='set-click'>
+                <b>Design</b>
+                <button onClick={() => setDesign('')} className='set-button-click'>X</button>
+                </div>}
+        </div>
         <div className='button-setting'>
-            <button className='button-click'>Product</button>
-            <button className='button-click'>Marketing</button>
-            <button className='button-click'>Engineering</button>
-            <button className='button-click'>Design</button>
+            <button className='button-click' onClick={() => setProduct(!product)}>Product</button>
+            <button className='button-click' onClick={() => setMarketing(!marketing)}>Marketing</button>
+            <button className='button-click' onClick={() => setEngineer(!engineer)}>Engineering</button>
+            <button className='button-click' onClick={() => setDesign(!design)}>Design</button>
         </div>
     </Cover>
   )

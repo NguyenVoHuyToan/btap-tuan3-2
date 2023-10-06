@@ -55,7 +55,7 @@ function Content() {
         <SecondBox>
             <div className='content-second-box'>
                 <div className='second-img'><img src='https://nextjs-test-k0n24xyth-hieu2304.vercel.app/_next/static/media/banner.ed746733.svg'width={20}/></div>
-                <div className='second-content'>Add a banner</div>
+                <input type='file' className='second-content'/>
             </div>
         </SecondBox>
     </Block>

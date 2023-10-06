@@ -8,19 +8,10 @@ import Setting from './component/Setting';
 function App() {
   return (
   <>
-    <div style={{
-      backgroundColor: "#fef452",
-      height: "1000px"
-    }}>
-      <div>
+    <div className='background'>
         <Header/>
-      </div>
-      <div>
         <Content/>
-      </div>
-      <div>
         <Description/>
-      </div>
     </div>
     <Setting/>
     <Button/>
