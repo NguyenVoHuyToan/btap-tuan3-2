@@ -5,7 +5,8 @@ export const HeaderInfo = styled.div`
   display: flex;
   list-style: none;
   margin-top: 20px;
-  padding-right: 50px;
+  padding-right: 20px;
+  gap: 20px;
 `;
 export const HeaderImage = styled.div`
   display: flex;
