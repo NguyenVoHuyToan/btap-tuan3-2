@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import InputCheckBox from "./InputCheckBox";
 import TitleSeting from "./TitleSeting";
@@ -21,7 +21,9 @@ function Setting() {
     { id: 3, name: "Community Only" },
   ];
   const ArrayButton = ["Product", "Marketing", "Engineering", "Design"];
-
+  const handleClick = () => {
+  
+  } 
   return (
     <Cover>
       <div className="setting">Setting</div>
@@ -47,14 +49,14 @@ function Setting() {
       <TitleSeting title="Tag your social" />
       <TitleSeting title="Pick tags for our curation engine to work its magin" />
       <div className="handle-setting">
-
       </div>
       <div className="button-setting">
         {ArrayButton.map((item,index) => (
           <div key={index}>
-            <button className="click-button">
+            <button onClick={handleClick} className="click-button">
               {item}
             </button>
+            
           </div>
         ))}
       </div>
