@@ -22,8 +22,6 @@ function Setting() {
   ];
   const ArrayButton = ["Product", "Marketing", "Engineering", "Design"];
 
-  const [click, setClick] = useState(false);
-
   return (
     <Cover>
       <div className="setting">Setting</div>
@@ -49,18 +47,12 @@ function Setting() {
       <TitleSeting title="Tag your social" />
       <TitleSeting title="Pick tags for our curation engine to work its magin" />
       <div className="handle-setting">
-        {click &&
-          ArrayButton.map((item) => (
-            <div>
-              {item}
-              <button onClick={() => setClick("")}>X</button>
-            </div>
-          ))}
+
       </div>
       <div className="button-setting">
-        {ArrayButton.map((item) => (
-          <div>
-            <button onClick={() => setClick(!click)} className="click-button">
+        {ArrayButton.map((item,index) => (
+          <div key={index}>
+            <button className="click-button">
               {item}
             </button>
           </div>
