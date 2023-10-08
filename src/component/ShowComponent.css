@@ -1,0 +1,65 @@
+.show-cpn {
+  background: linear-gradient(138.11deg, #fef452, #942f70 121.92%);
+}
+.setting {
+  width: 100px;
+  height: 50px;
+  background-color: yellow;
+  margin-left: 30px;
+  font-size: 30px;
+  color: violet;
+  margin-top: 20px;
+}
+
+.checkbox {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.des-input {
+  width: 800px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.radio {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.p-setting {
+  margin-left: 30px;
+}
+
+.set-click {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  font-size: 12px;
+}
+.set-button-click {
+  background: none;
+  border: none;
+}
+
+.handle-setting {
+  display: flex;
+  gap: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.button-setting {
+  display: flex;
+  margin-left: 30px;
+  gap: 20px;
+}
+
+.click-button {
+  border-radius: 10px;
+}

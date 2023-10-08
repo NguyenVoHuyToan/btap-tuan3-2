@@ -1,127 +1,86 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
   /* color: white; */
 }
 
-a:hover{  
+a:hover {
   color: blue;
   cursor: pointer;
 }
-.content-fisrt-box{
+.content-fisrt-box {
   margin: -100px;
 }
-.h1{
+.h1 {
   width: 30%;
   background-color: violet;
   color: white;
   font-size: 20px;
-  margin: 50px;  
+  margin: 50px;
 }
-.h1-under{
+.h1-under {
   width: 50%;
   margin-left: 50px;
   margin-top: -50px;
   font-size: 20px;
   color: white;
 }
-.handle-input{
+.handle-input {
   display: flex;
   margin-left: 50px;
   margin-bottom: 30px;
 }
-.input{
+.input {
   padding: 10px;
 }
 
-.content-img{
+.content-img {
   margin-right: 10px;
 }
 
-.content-input{
+.content-input {
   width: 200px;
   height: 40px;
   border-radius: 5px;
   margin-left: 10px;
 }
 
-.address{
+.address {
   margin-left: 60px;
   margin-bottom: 30px;
 }
 
-.add-input{
+.add-input {
   width: 77%;
   height: 30px;
   border-radius: 5px;
 }
 
-.person{
+.person {
   margin-left: 10px;
 }
 
-.content-second-box{
+.content-second-box {
   display: flex;
   justify-content: center;
   margin-top: 250px;
 }
 
-.second-img{
+.second-img {
   display: flex;
   margin-right: 10px;
 }
 
-.des-input{
-  width: 800px;
-  height: 200px;
-  border-radius: 10px;
-}
-
-.setting{
-  width: 100px;
-  height: 50px;
-  background-color: yellow;
-  margin-left: 30px;
-  font-size: 30px;
-  color: violet;
-  margin-top: 20px;
-}
-
-.checkbox{
-  margin-left: 30px;
-  margin-top: 20px;
-}
-
-.radio{
-  display: flex;
-  margin-left: 30px;
-  margin-top: 20px;
-  gap: 20px;
-}
-
-.p-setting{
-  margin-left: 30px;
-}
-
-.button-click{
+.button-click {
   margin-left: 25px;
   border-radius: 10px;
 }
 
-#hidden{
-  display: none;
-}
-
-.hidden-button{
-  margin-left: 25px;
-  border-radius: 10px;
-}
-
-.under-button{
+.under-button {
   width: 800px;
   height: 50px;
   margin-top: 20px;
@@ -133,39 +92,18 @@ a:hover{
   transition-duration: 0.4s;
 }
 
-.under-button:hover{ 
+.under-button:hover {
   color: blue;
   border: 1px solid blue;
 }
 
-.background{
-  background-color:  #fef452;
+.background {
+  background: linear-gradient(138.11deg, #fef452, #942f70 121.92%);
   height: 1000px;
 }
 
-.note{
+.note {
   margin-left: 50px;
   margin-top: 20px;
   width: 50%;
-}
-
-.set-click{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 20px; 
-  border-radius: 10px;
-  border: 1px solid grey;
-  font-size: 12px;
-}
-.set-button-click{
-  background: none;
-  border: none;
-}
-
-.handle-setting{
-  display: flex;
-  gap: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
 }
