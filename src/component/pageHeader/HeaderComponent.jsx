@@ -1,6 +1,7 @@
 import React from "react";
 import Header, { HeaderImage, HeaderInfo } from "./Header";
 import styled from "styled-components";
+import HeaderOption from "./HeaderOption";
 
 export const Block = styled.div`
   display: flex;
@@ -18,7 +19,7 @@ function HeaderComponent() {
         <Header title="Blog" href="#" />
         <Header title="Socials" href="#" />
         <Header title="Past Socials" href="#" />
-        <Header title="Clubs" href="#" />
+        <HeaderOption option="Clubs" href="#" />
         <Header title="Contact" href="#" />
       </HeaderInfo>
     </Block>

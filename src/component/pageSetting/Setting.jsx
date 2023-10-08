@@ -10,7 +10,7 @@ export const Cover = styled.div`
   border: 1px solid grey;
   background-color: white;
   margin-left: 50px;
-  margin-top: 100px;
+  margin-top: -50px;
 `;
 
 function Setting() {
