@@ -23,10 +23,10 @@ function Header(props) {
   return (
     <Block>
       <HeaderImage>
-        <img src={props.image}></img>
+        <img src={props.image} alt="#"></img>
       </HeaderImage>
       <HeaderInfo>
-        <a href="#">
+        <a href="https://singular-tulumba-8069dd.netlify.app/">
           <li>{props.title}</li>
         </a>
       </HeaderInfo>

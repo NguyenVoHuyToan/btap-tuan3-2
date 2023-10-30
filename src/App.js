@@ -1,12 +1,11 @@
 import { useState } from "react";
 import "./App.css";
 import Button from "./component/Button";
-import Header from "./component/pageHeader/Header";
-import HeaderComponent from "./component/pageHeader/HeaderComponent";
-import DetailComponent from "./detail-component/DetailComponent";
 import Content from "./component/Content";
 import Description from "./component/Description";
+import HeaderComponent from "./component/pageHeader/HeaderComponent";
 import Setting from "./component/pageSetting/Setting";
+import DetailComponent from "./detail-component/DetailComponent";
 
 function App() {
   const [show, setShow] = useState(true);

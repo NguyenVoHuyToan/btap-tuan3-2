@@ -1,7 +1,4 @@
-import React, { useState } from "react";
-import styled from "styled-components";
-import DetailComponent from "../detail-component/DetailComponent";
-import ShowComponent from "./ShowComponent";
+import React from "react";
 
 
 function Button(props) {
