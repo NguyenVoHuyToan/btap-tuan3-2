@@ -24,7 +24,7 @@ function ImageContent() {
   return (
     <div>
         <input type='file' onChange={onSelectFile} />
-            {selectedFile &&  <img src={preview} /> }
+            {selectedFile &&  <img src={preview} alt='#' /> }
     </div>
   )
 }
