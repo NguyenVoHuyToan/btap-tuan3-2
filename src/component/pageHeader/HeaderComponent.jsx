@@ -16,11 +16,11 @@ function HeaderComponent() {
         <Header image="https://nextjs-test-k0n24xyth-hieu2304.vercel.app/_next/static/media/header-logo.a4cff821.svg" />
       </HeaderImage>
       <HeaderInfo>
-        <Header title="Blog" href="#" />
-        <Header title="Socials" href="#" />
-        <Header title="Past Socials" href="#" />
-        <HeaderOption option="Clubs" href="#" />
-        <Header title="Contact" href="#" />
+        <Header title="Blog" href="https://www.facebook.com/" />
+        <Header title="Socials" href="https://www.facebook.com/" />
+        <Header title="Past Socials" href="https://www.facebook.com/" />
+        <HeaderOption option="Clubs" href="https://www.facebook.com/" />
+        <Header title="Contact" href="https://www.facebook.com/" />
       </HeaderInfo>
     </Block>
   );

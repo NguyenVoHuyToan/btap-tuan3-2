@@ -26,7 +26,7 @@ function Header(props) {
         <img src={props.image} alt="#"></img>
       </HeaderImage>
       <HeaderInfo>
-        <a href="https://singular-tulumba-8069dd.netlify.app/">
+        <a href="https://www.facebook.com/">
           <li>{props.title}</li>
         </a>
       </HeaderInfo>
